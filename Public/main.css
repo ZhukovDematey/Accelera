@@ -294,7 +294,7 @@ header {
   height: 100%;
   width: 100%;
   left: 0%;
-  background-image: url(/images/WebBig.png);
+  background-image: url(./WebBig.png);
   background-size: cover;
   border: none;
 }
@@ -682,7 +682,7 @@ ul {
     height: 100%;
     width: 100%;
     left: 0%;
-    background-image: url(/images/WebShort.png);
+    background-image: url(../images/0001.png);
     background-position: 50% 10%;
   }
   .footer-col {
