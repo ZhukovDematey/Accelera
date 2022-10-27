@@ -6,7 +6,7 @@ const port = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, params) => {
+app.get('/', (req, res) => {
     res.send('hola')
 })
 
