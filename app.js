@@ -6,7 +6,9 @@ const port = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-
+app.get('/', (req, params) => {
+    res.send('hola')
+})
 
 app.listen(3000, () => {
     console.log('Server on port', port)
