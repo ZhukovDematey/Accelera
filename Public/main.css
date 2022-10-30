@@ -305,7 +305,7 @@ header {
   height: calc(100vh - 3rem);
   width: 100%;
   top: calc(100vh);
-  left: 10px;
+  left: 40px;
   z-index: -1;
 }
 
