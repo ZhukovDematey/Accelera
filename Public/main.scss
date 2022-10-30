@@ -245,6 +245,21 @@ header {
     }
 }
 
+.test-section {
+    position: absolute;
+    background-color: rgba(124, 253, 19, 0);
+    height: calc(100vh - 3rem);
+    width: 100%;
+    top: calc(100vh);
+    z-index: -1;
+    .square {
+        position: relative;
+        top: 0%;
+        width: 96px;
+        background-color: rgb(247, 0, 0);
+    }
+}
+
 .info {
     position: absolute;
     display: line;
@@ -266,7 +281,7 @@ footer {
     padding: 70px 0 25px 0;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-    top: 100vh;
+    top: 200vh;
 }
 
 .container {
@@ -593,7 +608,7 @@ ul {
                 height: 100%;
                 width: 100%;
                 left: 0%;
-                background-image: url(../images/0001.png);
+                background-image: url(./0001.png);
                 background-position: 50% 10%;
             }
         }
